@@ -1,0 +1,9 @@
+1. Understanding the problem: The problem is to find the number of ways to reach the top of a staircase given that you can either climb 1 or 2 steps at a time.
+
+2. Breaking down the problem: To find the number of ways to reach the top of the staircase, we need to find the number of ways to reach each step.
+
+3. Defining the subproblem: The subproblem is to find the number of ways to reach each step.
+
+4. Defining the recurrence relation: To find the number of ways to reach step i, we can sum the number of ways to reach steps i - 1 and i - 2.
+
+5. Implementing the solution: To implement the solution, we can create an array dp to store the number of ways to reach each step, and use a for loop to update dp[i] as the sum of dp[i - 1] and dp[i - 2].
